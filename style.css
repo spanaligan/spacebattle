@@ -1,0 +1,71 @@
+nav {
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+nav a {
+    margin: 0 30px;
+    display: inline-flex;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+nav a:hover {
+    color: red;
+}
+main {
+    background-image: url("https://i.ytimg.com/vi/_stpyQo3H2A/maxresdefault.jpg");
+    display: block;
+    width: 100%;
+}
+h1, h2, p {
+    color: white;
+    text-align: center;
+}
+section {
+    display: block;
+    padding: 20px;
+}
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+.mail {
+    display: flex;
+    align-content: center;
+    padding: 20px 45px;
+    background-color: red;
+    color: white;
+    border-width: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 60px auto 5px;
+}
+section .start {
+    text-align: center;
+}
+.start {
+    display: flex;
+    align-content: center;
+    padding: 20px 45px;
+    background-color: red;
+    color: white;
+    border-width: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#multi-ship-start {
+    display: none;
+}
+
+
