@@ -63,9 +63,12 @@ section .start {
     margin-left: auto;
     margin-right: auto;
 }
-
+#single-ship-start  {
+    display: none;
+}
 #multi-ship-start {
     display: none;
 }
+
 
 

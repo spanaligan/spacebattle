@@ -184,8 +184,10 @@ function bulletin() { // originally I had this named 'function alert() which cau
         document.getElementById('emergency').innerHTML = 'Emergency news bulletin...';}, 1000);
     setTimeout(() => {
         document.getElementById('p1').innerHTML = 'Earth has been attacked by a horde of aliens!\n' +
-            '            You are the captain of the USS Schwarzenegger, on a mission to destroy every last alien ship.';}, 3000);
-
+            '            You are the captain of the USS Schwarzenegger, on a mission to destroy every last alien' +
+            ' ship.';}, 2000);
+    setTimeout(() => {
+        document.getElementById('p2').innerHTML = 'Battle the aliens as you try to destroy them with your lasers.';}, 4000);
     setTimeout(() => {
         document.getElementById('p3').innerHTML = 'There are six alien ships. The aliens\' weakness is that they are too logical and attack one at a\n' +
             '            time: they will wait to see the outcome of a battle before deploying another alien ship.\n' +
@@ -194,7 +196,6 @@ function bulletin() { // originally I had this named 'function alert() which cau
             '            After you have destroyed a ship, you have the option to make a hasty retreat.';}, 5000);
     setTimeout(() => {
         document.getElementById('p4').innerHTML = 'Best of luck captain as you complete your quest to destroy the aliens!!!';}, 10000);
-
     setTimeout(() => {
         document.getElementById('multi-ship-start').setAttribute('style', 'display: block');},
         11000); // used setAttribute to override the css until after the above messages ran.
